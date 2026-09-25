@@ -37,7 +37,7 @@ pip install numpy scipy matplotlib sympy jupyter
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/francesca-for/SESASR_ros2_ws.git ~/ros2_ws
+git clone https://github.com/francesca-for/Robot_Localization_EKF.git ~/ros2_ws
 cd ~/ros2_ws
 ```
 
