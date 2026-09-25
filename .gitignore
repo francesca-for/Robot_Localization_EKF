@@ -1,0 +1,42 @@
+# ROS 2 workspaces
+build/
+install/
+log/
+
+# Ambienti virtuali
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+
+# Mac OS
+.DS_Store
+
+# Editor (VS Code)
+.vscode/
+
+# Database
+*.db3
+
+# Pacchetti esterni del corso / TurtleBot
+src/planning_control_method/
+src/probabilistic-robotics-python-examples/
+src/turtlebot3_perception/
+src/turtlebot3_simulations/
+
+# 2nd version of lab01, course slides, images and notes text file
+src/lab01_pkg_fra/
+0*.pdf
+src/lab04_pkg/*.png
+SESASR_bash_commands.txt
+
+# original folder with rosbag reader
+src/Metrics_from_rosbag/
+
+git commit -m "Initial commit: ROS 2 EKF Localization"
+git branch -M main
+git remote add origin https://github.com/TuoNomeUtente/NomeDelTuoRepo.git
+git push -u --force origin main
